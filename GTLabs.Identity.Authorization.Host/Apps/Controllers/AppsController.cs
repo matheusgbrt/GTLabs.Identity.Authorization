@@ -28,11 +28,11 @@ public class AppsController : ControllerBase
         return Ok(result);
     }
     
-    [Route("{id}/permissions")]
+    [Route("{identifier}/permissions")]
     [HttpGet]
-    public async Task<IActionResult> GetByIdWithPermissions([FromRoute] Guid id)
+    public async Task<IActionResult> GetByIdentifierWithPermissions([FromRoute] string identifier)
     {
-        var result = await _appService.GetByIdWithIncludes(id);
+        var result = await _appService.GetByIdentifierWithIncludes(identifier);
 
         if (!result.Found)
             return NotFound();

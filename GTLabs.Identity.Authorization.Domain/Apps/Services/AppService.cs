@@ -39,14 +39,14 @@ public class AppService : IAppService, ITransientDependency
         };
     }
 
-    public async Task<EntitySearchResult<AppOutputWithIncludes>> GetByIdWithIncludes(Guid id)
+    public async Task<EntitySearchResult<AppOutputWithIncludes>> GetByIdentifierWithIncludes(string identifier)
     {
         var appEntity = await _apps.Query()
             .Include(a => a.Permissions)
             .ThenInclude(p => p.PermittedApp)
             .Include(a => a.PermittedBy)
             .ThenInclude(p => p.App)
-            .FirstOrDefaultAsync(a => a.Id == id);
+            .FirstOrDefaultAsync(a => a.Identifier == identifier);
         if (appEntity == null)
             return new EntitySearchResult<AppOutputWithIncludes>()
             {
