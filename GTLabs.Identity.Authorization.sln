@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTLabs.Identity.Authorization.Domain", "GTLabs.Identity.Authorization.Domain\GTLabs.Identity.Authorization.Domain.csproj", "{9CDD5E69-B6C5-4354-9C45-3FF83795EF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTLabs.Identity.Authorization.Host", "GTLabs.Identity.Authorization.Host\GTLabs.Identity.Authorization.Host.csproj", "{34288BE9-5B39-4848-8524-02149DEF46F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTLabs.Identity.Authorization.Infrastructure", "GTLabs.Identity.Authorization.Infrastructure\GTLabs.Identity.Authorization.Infrastructure.csproj", "{8DBE9486-E60E-46F0-AE04-A84D38D4DF5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CDD5E69-B6C5-4354-9C45-3FF83795EF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDD5E69-B6C5-4354-9C45-3FF83795EF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDD5E69-B6C5-4354-9C45-3FF83795EF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDD5E69-B6C5-4354-9C45-3FF83795EF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34288BE9-5B39-4848-8524-02149DEF46F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34288BE9-5B39-4848-8524-02149DEF46F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34288BE9-5B39-4848-8524-02149DEF46F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34288BE9-5B39-4848-8524-02149DEF46F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBE9486-E60E-46F0-AE04-A84D38D4DF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBE9486-E60E-46F0-AE04-A84D38D4DF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBE9486-E60E-46F0-AE04-A84D38D4DF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBE9486-E60E-46F0-AE04-A84D38D4DF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

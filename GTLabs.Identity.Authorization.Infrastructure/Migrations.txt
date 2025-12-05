@@ -1,0 +1,1 @@
+dotnet ef migrations add AdicaoReverseNavigationApps --project GTLabs.Identity.Authorization.Infrastructure.csproj --startup-project ..\GTLabs.Identity.Authorization.Host\GTLabs.Identity.Authorization.Host.csproj --context AuthorizationDbcontext
