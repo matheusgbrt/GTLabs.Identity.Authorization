@@ -7,14 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Gtlabs.Api" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.AppRegistration" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.AspNet" Version="1.2.3" />
-        <PackageReference Include="Gtlabs.Consul" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.Core" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.DependencyInjections" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.Redis" Version="1.2.3"/>
-        <PackageReference Include="Gtlabs.ServiceBus" Version="1.2.3"/>
+        <PackageReference Include="Gtlabs.Api" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.AppRegistration" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.AspNet" Version="1.2.6" />
+        <PackageReference Include="Gtlabs.Authentication" Version="1.2.6" />
+        <PackageReference Include="Gtlabs.Consul" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.Core" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.DependencyInjections" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.Redis" Version="1.2.6"/>
+        <PackageReference Include="Gtlabs.ServiceBus" Version="1.2.6"/>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
